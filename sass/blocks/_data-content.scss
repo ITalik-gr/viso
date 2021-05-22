@@ -1,0 +1,93 @@
+
+.data-content {
+  padding: 150px 0px 120px 0px;
+  &__wrap {
+
+  }
+  b {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 130%;
+    color: rgba(37, 38, 38, 0.98);
+  }
+  a {
+    text-decoration-line: underline;  
+    color: rgba(37, 38, 38, 0.98);
+    word-wrap: break-word;
+  }
+  &__bold {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 130%;
+    color: rgba(37, 38, 38, 0.98);
+    text-decoration: none!important;
+    &:hover {
+      color: rgba(37, 38, 38, 0.98);
+      text-decoration: none;
+    }
+  }
+  &__none {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 130%;
+    color: rgba(37, 38, 38, 0.98);
+    text-decoration: none!important;
+    &:hover {
+      text-decoration: none;
+      color: rgba(37, 38, 38, 0.98);
+    }
+  }
+  &__wrapper {
+    margin-bottom: 85px;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 140%;
+    color: rgba(37, 38, 38, 0.98);
+    margin-bottom: 20px;
+  }
+  &__card {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 130%;
+    color: rgba(37, 38, 38, 0.98);
+    margin: 45px 0px;
+    &-title {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 17px;
+      line-height: 130%;
+      color: #4B6FFC;
+      margin: 15px 0px;
+    }
+  }
+  &__descr {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 130%;
+    color: rgba(37, 38, 38, 0.98);
+    span {
+      font-weight: bold;
+      font-size: 17px;
+      line-height: 130%;
+      color: rgba(37, 38, 38, 0.98);
+      margin-top: 40px;
+    }
+  }
+  &__list {
+    margin: 15px 0px;
+    li {
+      margin-left: 20px;
+    }
+  }
+}

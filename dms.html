@@ -1,0 +1,460 @@
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <meta name="title" content="Заголовок">
+    <meta name="description" content="Онисание">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Заголовок">
+    <meta property="og:description" content="Онисание">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Заголовок">
+    <meta property="twitter:description" content="Онисание">
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Favicon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap-grid.min.css" integrity="sha512-cKoGpmS4czjv58PNt1YTHxg0wUDlctZyp9KUxQpdbAft+XqnyKvDvcGX0QYCgCohQenOuyGSl8l1f7/+axAqyg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="fonts/poppins.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <section class="nav">
+        <div class="container">
+            <div class="nav__wrap">
+                <a href="index.html" class="nav__logo">
+                    <img src="img/Logo/Visoplan_logo.svg" alt="">
+                </a>
+                <ul class="nav__list">
+                    <li class="nav-active"><a id="drop_btn" class="nav__list__link ">Features 
+                        <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 5L4.37114e-07 2.54292e-07L8 0L4 5Z" fill="#252626"/>
+                        </svg>
+                    </a></li>
+                    <li><a href="tabs.html" class="nav__list__link">use cases</a></li>
+                    <li><a href="price.html" class="nav__list__link">Pricing</a></li>
+                </ul>
+                <div class="nav__button">
+                    <div class="nav__lang">
+                        EN
+                    </div>
+                    <a href="IFC-Viewer.html" class="btn nav__btn">Login</a>
+                </div>
+                <div id="nav-burger" class="nav-burger">
+                    <span class="nav-burger__elem-1"></span>
+                    <span class="nav-burger__elem-2"></span>
+                    <span class="nav-burger__elem-3"></span>
+                    <span class="nav-burger__elem-4"></span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div id="drop-menu" class="drop-menu">
+        <div class="container">
+            <div class="drop-menu__wrap">
+
+                <div class="drop-menu__lang">
+
+                <a class="drop-menu__link drop-menu__active" href="#">DE</a>
+
+                    <span></span>
+
+                <a class="drop-menu__link" href="#">EN</a> 
+
+                </div>
+                <div class="drop-menu__wrapper">
+                    <div class="drop-menu-title">
+                        Features
+                    </div>
+                    <a href="IFC-Viewer.html" class="drop-menu-card">
+                        <div class="drop-menu__image">
+                            <img src="img/drop-menu/IFC-Viewer.svg" alt="">
+                        </div>
+                        <div class="drop-menu__title">
+                            IFC Viewer
+                        </div>
+                        <div class="drop-menu__descr">
+                            <p>
+                                Besichtigen Sie das 3D-Modell aller Gewerke und nutzen Sie Werkzeuge wie Messen, Schneiden und Markieren.
+                            </p>
+                        </div>
+                    </a>
+    
+                    <a href="collaboration.html" class="drop-menu-card">
+                        <div class="drop-menu__image">
+                            <img src="img/drop-menu/BIM-Kollaboration.svg" alt="">
+                        </div>
+                        <div class="drop-menu__title">
+                            BIM-Kollaborationsplattform
+                        </div>
+                        <div class="drop-menu__descr">
+                            <p>
+                                Das CDE für eine effizientere Zusammenarbeit aller Beteiligten in BIM-Projekten.
+                            </p>
+                        </div>
+                    </a>
+    
+                    <a href="managment.html" class="drop-menu-card">
+                        <div class="drop-menu__image">
+                            <img src="img/drop-menu/Issue -Management.svg" alt="">
+                        </div>
+                        <div class="drop-menu__title">
+                            Issue Management
+                        </div>
+                        <div class="drop-menu__descr">
+                            <p>
+                                Zentrale Verwaltung und Validierung von Issues. Inklusive Import und Export via Plug-Ins.
+                            </p>
+                        </div>
+                    </a>
+    
+                    <a href="dms.html" class="drop-menu-card">
+                        <div class="drop-menu__image">
+                            <img src="img/drop-menu/Dokumentenmanagement.svg" alt="">
+                        </div>
+                        <div class="drop-menu__title">
+                            Dokumentenmanagement
+                        </div>
+                        <div class="drop-menu__descr">
+                            <p>
+                                Der Ort für die Verwaltung sämtlicher Dateiformate im BIM-Projekt. Mit Verknüpfungen zu Baukomponenten und Issues.
+                            </p>
+                        </div>
+                    </a>
+    
+                    <a href="analytics.html" class="drop-menu-card">
+                        <div class="drop-menu__image">
+                            <img src="img/drop-menu/BIM Analytics.svg" alt="">
+                        </div>
+                        <div class="drop-menu__title">
+                            BIM Analytics
+                        </div>
+                        <div class="drop-menu__descr">
+                            <p>
+                                Intelligente Suchen und Analysen. Mengenermittlungen und Listenaktionen. Einfach smart.
+                            </p>
+                        </div>
+                    </a>
+
+                    <div class="drop-menu__link-2">
+                        <a class="drop-menu__link-2__link" href="tabs.html">Mehrwert in der Praxis</a>
+                        <a class="drop-menu__link-2__link" href="price.html">Pricing</a>
+                    </div>
+    
+                    <hr class="drop-menu__hr">
+                </div>
+
+                <div class="drop-menu__pages__wrap">
+                    <ul class="drop-menu__pages__list">
+                        <li>
+                            <a class="drop-menu__pages__link" href="#">
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a class="drop-menu__pages__link" href="#">
+                                Hilfe
+                            </a>
+                        </li>
+                        <li>
+                            <a class="drop-menu__pages__link" href="#">
+                                Über Uns
+                            </a>
+                        </li>
+                        <li>
+                            <a class="drop-menu__pages__link" href="#">
+                                Karriere & Jobs
+                            </a>
+                        </li>
+                        <li>
+                            <a class="drop-menu__pages__link" href="impresum.html">
+                                Impressum
+                            </a>
+                        </li>
+                        <li>
+                            <a class="drop-menu__pages__link" href="data.html">
+                                datenschutz
+                            </a>
+                        </li>
+                        <li>
+                            <a class="drop-menu__pages__link" href="#">
+                                agb
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="drop-menu__pages__social">
+                        <a href="#">
+                            <img src="img/icons/Linkedin.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/icons/Facebook.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/icons/YouTube.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/icons/Instagram.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/icons/Xing.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/icons/Twitter.svgs" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="header header-dms">
+
+        <div class="container">
+            <div class="header__wrap">
+                <div class="header__block">
+                    <div class="header__smart-logo mb0">
+                        <img src="img/Logo/Logo-header-BuildingSMART.svg" alt="">
+                    </div>
+                    <div class="page-title">
+                      Dokumentenmanagement (DMS) 
+                    </div>
+                    <div class="header__title header__title-dms">
+                      Der Ort für sämtliche Dokumente im Bauprojekt: <br>
+                      Das Dokumenten-Management-System (DMS) von Visoplan.
+                    </div>
+                </div>
+                <div class="header__wrapper">
+                    <div class="header-left">
+                        <div class="header__block-2">
+                            <form action="" class="header__form">
+                                <div class="header__form__title">
+                                  Kostenlos und unverbindlich testen:
+                                </div>
+                                <div class="header__form__wrap header__form__wrap-email">
+                                    <input placeholder="E-Mailadresse eingeben*" required type="email" class="header__form__email">
+                                </div>
+                                <div class="header__form__wrap">
+                                    <input required placeholder="Vollständiger Name*" type="text" class="header__form__name">
+                                    <input placeholder="Telefon" type="number" class="header__form__phone">
+                                </div>
+                                <div class="header__form__button">
+                                    <button class="header__form__btn">Jetzt anfordern</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="header-right">
+                        <div class="header__experts">
+                          <div class="header__experts-line"></div>
+                          <span><img src="img/icons/icon-thumb.svg" alt=""></span>
+                            <div class="header__experts__title">
+                              Visoplan wird von zahlreichen BIM-Experten empfohlen - wann steigen auch Sie mit ein?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="line-top">
+
+    </div>
+  
+
+    <section class="video video-r video-swap">
+      <div class="container-fluid">
+        <div class="video__title tac">
+          Datenzentriertes CDE – die BIM-Lösung <br> für effizienten Datenaustausch
+        </div>
+        <div class="video__wrap">
+          <div class="video__text video__text-swap video__text-small">
+            <p>
+              Im Bauprojekt ist die zentrale Daten- und Dokumentenverwaltung ein elementarer Bestandteil für die erfolgreiche Umsetzung. 
+              <br><br>
+              <span>Unsere Projektplattform bietet Ihnen hierbei eine zentrale DMS-Lösung, die als eine von vielen Features direkt in das Common Data Environment integriert ist und sämtliche Dateiformate unterstützt.</span>
+            </p>
+          </div>
+          <div class="video-image">
+            <img src="img/video/video-swap@2x.webp" alt="">
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="video video-l video-digital">
+      <div class="container-fluid">
+        <div class="video__title tac">
+          Digitales Dokumentenmanagement kann jetzt noch mehr
+        </div>
+        <div class="video__wrap">
+            <div class="video-video">
+                <video preload="auto" muted autoplay loop src="img/video/analyt1.mp4"></video>
+            </div>
+          <div class="video__text video__text-digital video__text-small">
+            <p>
+              Die Vorteile digitalen Dokumentenmanagements: Kategorisierungen, Filter & Suchen, Freigabeprozesse, Datenzentrierung sowie Kosteneinsparungen durch einen geringeren Papierverbrauch. 
+              <br><br>
+              <span>Doch Visoplan bietet Ihnen noch mehr – Dokumente lassen sich mit Baukomponenten und Issues verknüpfen, sodass alles miteinander vernetzt ist!</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="video video-r video-document">
+      <div class="container-fluid">
+        <div class="video__title tac">
+            Höchste Revisionssicherheit in der zentralen <br> BIM-Software für Dokumentenmanagement
+        </div>
+        <div class="video__wrap">
+          <div class="video__text video__text-document video__text-small">
+            <p>
+                <span>Im Dokumenten-Management-System von Visoplan werden alle Dateien automatisch versioniert, sodass Sie jederzeit auf ältere Versionen zurückgreifen können und keine Daten im Laufe des Projektes verloren gehen. </span>
+                <br><br>
+                Die Benachrichtigungsfunktion teilt Ihnen bei Aktivierung automatisch per Mail mit, wenn Aktualisierungen wichtiger Dateien hochgeladen wurden.
+            </p>
+          </div>
+          <div class="video-image">
+            <img class="video-image__document" src="img/video/Video-documentation@2x.webp" alt="">
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ask">
+      <div class="container">
+          <div class="ask__wrap">
+              <div class="ask__title">
+                Schon heute in der Zukunft mit Visoplan
+              </div>
+              <div class="ask__block">
+                  <div class="ask__text">
+                    Fragen kostet nichts! 
+                    Kontaktieren Sie uns jederzeit.
+                  </div>
+                  <form action="" class="ask__form">
+                      <input placeholder="E-Mail-Adresse eingeben*" required type="email" class="ask__input ask__email">
+                      <div class="ask__name-phone">
+                          <input placeholder="Vollständiger Name*" required type="text" class="ask__name ask__input">
+                          <input placeholder="Telefon" type="number" class="ask__input ask__phone">
+                      </div>
+                      <div class="ask__button">
+                          <button class="ask__btn">
+                            Absenden
+                          </button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section>
+  <footer class="footer">
+    <div class="container-fluid">
+        <div class="footer__wrap">
+            <a href="#" class="footer-nav">
+                <img src="img/Logo/Visoplan-Logo__footer.svg" alt="" class="footer__logo">
+            </a>
+            <div class="footer-body">
+                <div class="footer__block">
+                    <div class="footer__title">
+                        Application
+                    </div>
+                    <ul class="footer__list">
+                        <li><a href="tabs.html" class="footer__link">Use Cases</a></li>
+                        <li><a href="IFC-Viewer.html" class="footer__link">IFC Viewer</a></li>
+                        <li><a href="collaboration.html" class="footer__link">BIM Collaboration Software</a></li>
+                        <li><a href="managment.html" class="footer__link">Issue Management</a></li>
+                        <li><a href="dms.html" class="footer__link">Document Management (DMS)</a></li>
+                        <li><a href="analytics.html" class="footer__link">BIM Analytics</a></li>
+                        <li><a href="price.html" class="footer__link">Pricing</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer__wrapper">
+                    <div class="footer-block">
+                        <div class="footer__title">
+                            Knowledge
+                        </div>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">Blog</a></li>
+                            <li><a href="#" class="footer__link">Help</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-block">
+                        <div class="footer__title">
+                            language
+                        </div>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link footer-lang">German</a></li>
+                            <li><a href="#" class="footer__link footer-lang footer-lang-active">Englisch</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__block">
+                    <div class="footer__title">
+                        company
+                    </div>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">About Us</a></li>
+                            <li><a href="#" class="footer__link">Career & Jobs</a></li>
+                            <li><a href="impresum.html" class="footer__link">Imprint</a></li>
+                            <li><a href="#" class="footer__link">Privacy Notice</a></li>
+                            <li><a href="#" class="footer__link">Terms & Conditions</a></li>
+                        </ul>
+                </div>
+                <div class="footer__block footer__block-w">
+                    <div class="footer__title-fz">
+                        Always up-to-date.
+                        With the Visoplan BIM newsletter.
+                    </div>
+                    <form action="" class="footer__form">
+                        <input placeholder="Email address " required type="email" name="" id="">
+                            <button class="footer__btn">
+                                Sign Up
+                            </button>
+                        
+                    </form>
+                    <div class="footer_lang">
+                      <div class="footer__title">
+                          language
+                      </div>
+                      <ul class="footer__list">
+                          <li><a href="#" class="footer__link footer-lang">German </a></li>
+                          |
+                          <li><a href="#" class="footer__link footer-lang footer-lang-active"> Englisch</a></li>
+                      </ul>   
+                    </div>
+                    <div class="footer-social">
+                        <div class="footer-social__title">
+                            Follow us!
+                        </div>
+                        <div class="footer-social__image">
+                            <a href="#"><img src="img/icons/Linkedin.svg" alt="Linkedin"></a>
+                            <a href="#"><img src="img/icons/Facebook.svg" alt="Facebook"></a>
+                            <a href="#"><img src="img/icons/YouTube.svg" alt="YouTube"></a>
+                            <a href="#"><img src="img/icons/Instagram.svg" alt="Instagram"></a>
+                            <a href="#"><img src="img/icons/Xing.svg" alt="Xing"></a>
+                            <a href="#"><img src="img/icons/Twitter.svg" alt="Twitter"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+
+.imp-contact {
+  padding: 95px 0px 75px 0px;
+  &__wrap {
+
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 140%;
+    color: rgba(37, 38, 38, 0.98);
+    margin-bottom: 27px;
+  }
+  &__text {
+    font-size: 23px;
+    line-height: 140%;
+    color: #5A667B;
+    font-weight: normal;
+    &-1 {
+
+    }
+    &-2 {
+
+    }
+  }
+  &__hr {
+    border: 2px solid #4B6EF5;
+    margin: 58px 0px;
+  }
+  &__link {
+    color: #5A667B;
+    &:hover {
+      color: #5A667B;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1400px) { //1200
+
+}
+
+@media (max-width: 1200px) { //992
+
+}
+
+
+@media (max-width: 992px) { //768 
+
+}
+
+@media (max-width: 768px) { //576 
+
+}
+
+@media (max-width: 576px)  { //320
+  .imp-contact {
+    padding: 55px 0 75px 0;
+    &__title {
+      font-size: 17px;
+      line-height: 130%;
+    }
+    &__text {
+      font-size: 18px;
+      line-height: 140%;
+    }
+  }
+}
+  

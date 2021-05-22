@@ -1,0 +1,38 @@
+
+.data-descr {
+  background: #F0F5FA;
+  clip-path: polygon(41% 0, 100% 24%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 9%);
+  &__wrap {
+    padding: 266px 0px 135px 0px;
+  }
+  
+  &__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 130%;
+    color: rgba(37, 38, 38, 0.98);
+    a {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 17px;
+      line-height: 130%;
+      text-decoration-line: underline;
+      color: rgba(37, 38, 38, 0.98);
+      word-wrap: break-word;
+    }
+    span {
+      font-weight: bold;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .data {
+    &-descr {
+      clip-path: polygon(41% 0,100% 7%,100% 60%,100% 100%,0 100%,0 60%,0 5%);
+    }
+  }
+}

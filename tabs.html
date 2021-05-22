@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <meta name="title" content="Заголовок">
+    <meta name="description" content="Онисание">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Заголовок">
+    <meta property="og:description" content="Онисание">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Заголовок">
+    <meta property="twitter:description" content="Онисание">
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Favicon  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap-grid.min.css" integrity="sha512-cKoGpmS4czjv58PNt1YTHxg0wUDlctZyp9KUxQpdbAft+XqnyKvDvcGX0QYCgCohQenOuyGSl8l1f7/+axAqyg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="fonts/poppins.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+    <section class="nav">
+        <div class="container">
+            <div class="nav__wrap">
+                <a href="index.html" class="nav__logo">
+                    <img src="img/Logo/Visoplan_logo.svg" alt="">
+                </a>
+                <ul class="nav__list">
+                    <li><a id="drop_btn" class="nav__list__link ">Features 
+                        <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 5L4.37114e-07 2.54292e-07L8 0L4 5Z" fill="#252626"/>
+                        </svg>
+                    </a></li>
+                    <li class="nav-active"><a href="tabs.html" class="nav__list__link">use cases</a></li>
+                    <li><a href="price.html" class="nav__list__link">Pricing</a></li>
+                </ul>
+                <div class="nav__button">
+                    <div class="nav__lang">
+                        EN
+                    </div>
+                    <a href="IFC-Viewer.html" class="btn nav__btn">Login</a>
+                </div>
+                <div id="nav-burger" class="nav-burger">
+                    <span class="nav-burger__elem-1"></span>
+                    <span class="nav-burger__elem-2"></span>
+                    <span class="nav-burger__elem-3"></span>
+                    <span class="nav-burger__elem-4"></span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div id="drop-menu" class="drop-menu">
+        <div class="container">
+            <div class="drop-menu__wrap">
+
+                <div class="drop-menu__lang">
+
+                <a class="drop-menu__link drop-menu__active" href="#">DE</a>
+
+                    <span></span>
+
+                <a class="drop-menu__link" href="#">EN</a> 
+
+                </div>
+                <div class="drop-menu__wrapper">
+                    <div class="drop-menu-title">
+                        Features
+                    </div>
+                    <a href="IFC-Viewer.html" class="drop-menu-card">
+                        <div class="drop-menu__image">
+                            <img src="img/drop-menu/IFC-Viewer.svg" alt="">
+                        </div>
+                        <div class="drop-menu__title">
+                            IFC Viewer
+                        </div>
+                        <div class="drop-menu__descr">
+                            <p>
+                                Besichtigen Sie das 3D-Modell aller Gewerke und nutzen Sie Werkzeuge wie Messen, Schneiden und Markieren.
+                            </p>
+                        </div>
+                    </a>
+    
+                    <a href="collaboration.html" class="drop-menu-card">
+                        <div class="drop-menu__image">
+                            <img src="img/drop-menu/BIM-Kollaboration.svg" alt="">
+                        </div>
+                        <div class="drop-menu__title">
+                            BIM-Kollaborationsplattform
+                        </div>
+                        <div class="drop-menu__descr">
+                            <p>
+                                Das CDE für eine effizientere Zusammenarbeit aller Beteiligten in BIM-Projekten.
+                            </p>
+                        </div>
+                    </a>
+    
+                    <a href="managment.html" class="drop-menu-card">
+                        <div class="drop-menu__image">
+                            <img src="img/drop-menu/Issue -Management.svg" alt="">
+                        </div>
+                        <div class="drop-menu__title">
+                            Issue Management
+                        </div>
+                        <div class="drop-menu__descr">
+                            <p>
+                                Zentrale Verwaltung und Validierung von Issues. Inklusive Import und Export via Plug-Ins.
+                            </p>
+                        </div>
+                    </a>
+    
+                    <a href="dms.html" class="drop-menu-card">
+                        <div class="drop-menu__image">
+                            <img src="img/drop-menu/Dokumentenmanagement.svg" alt="">
+                        </div>
+                        <div class="drop-menu__title">
+                            Dokumentenmanagement
+                        </div>
+                        <div class="drop-menu__descr">
+                            <p>
+                                Der Ort für die Verwaltung sämtlicher Dateiformate im BIM-Projekt. Mit Verknüpfungen zu Baukomponenten und Issues.
+                            </p>
+                        </div>
+                    </a>
+    
+                    <a href="analytics.html" class="drop-menu-card">
+                        <div class="drop-menu__image">
+                            <img src="img/drop-menu/BIM Analytics.svg" alt="">
+                        </div>
+                        <div class="drop-menu__title">
+                            BIM Analytics
+                        </div>
+                        <div class="drop-menu__descr">
+                            <p>
+                                Intelligente Suchen und Analysen. Mengenermittlungen und Listenaktionen. Einfach smart.
+                            </p>
+                        </div>
+                    </a>
+
+                    <div class="drop-menu__link-2">
+                        <a class="drop-menu__link-2__link" href="tabs.html">Mehrwert in der Praxis</a>
+                        <a class="drop-menu__link-2__link" href="price.html">Pricing</a>
+                    </div>
+    
+                    <hr class="drop-menu__hr">
+                </div>
+
+                <div class="drop-menu__pages__wrap">
+                    <ul class="drop-menu__pages__list">
+                        <li>
+                            <a class="drop-menu__pages__link" href="#">
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a class="drop-menu__pages__link" href="#">
+                                Hilfe
+                            </a>
+                        </li>
+                        <li>
+                            <a class="drop-menu__pages__link" href="#">
+                                Über Uns
+                            </a>
+                        </li>
+                        <li>
+                            <a class="drop-menu__pages__link" href="#">
+                                Karriere & Jobs
+                            </a>
+                        </li>
+                        <li>
+                            <a class="drop-menu__pages__link" href="impresum.html">
+                                Impressum
+                            </a>
+                        </li>
+                        <li>
+                            <a class="drop-menu__pages__link" href="data.html">
+                                datenschutz
+                            </a>
+                        </li>
+                        <li>
+                            <a class="drop-menu__pages__link" href="#">
+                                agb
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="drop-menu__pages__social">
+                        <a href="#">
+                            <img src="img/icons/Linkedin.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/icons/Facebook.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/icons/YouTube.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/icons/Instagram.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/icons/Xing.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/icons/Twitter.svgs" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="header header-tabs">
+        <video preload="auto" muted autoplay loop class="header-video__tabs">
+            <source type="video/webm" src="img/bg/tabs_bg-video.webm">
+            <source type="video/mov" src="img/bg/tabs__bg-video.mov">
+            <source type="video/mp4" src="img/bg/tabs_bg-video.mp4">
+        </video>
+        <div class="container">
+            <div class="header__wrap">
+                <div class="header__block">
+                    <div class="header__smart-logo">
+                        <img src="img/Logo/Logo-header-BuildingSMART.svg" alt="">
+                    </div>
+                    <div class="header__title header__title-tabs">
+                        openBIM Construction Planning - from today digital, relaxed, efficient.
+                    </div>
+                    <div class="header__subtitle">
+                        Bring everyone involved in the project together in one BIM Authoring Software.
+                    </div>
+                </div>
+                <div class="header__wrapper">
+                    <div class="header-left">
+                        <div class="header__block-2">
+                            <form action="" class="header__form">
+                                <div class="header__form__title">
+                                    Test it free of charge and without obligation:
+                                </div>
+                                <div class="header__form__wrap header__form__wrap-email">
+                                    <input placeholder="Email Address*" required type="email" class="header__form__email">
+                                </div>
+                                <div class="header__form__wrap">
+                                    <input required placeholder="Full Name*" type="text" class="header__form__name">
+                                    <input placeholder="Phone" type="number" class="header__form__phone">
+                                </div>
+                                <div class="header__form__button">
+                                    <button class="header__form__btn">Request Now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="header-right">
+                        <div class="header__experts">
+                            <div class="header__experts-line"></div>
+                            <span><img src="img/icons/icon-thumb.svg" alt=""></span>
+                            <div class="header__experts__title">
+                                Visoplan is recommended by numerous BIM experts.
+                                When do you join them?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="line-top">
+    </div>
+
+    <section class="tabs">
+        <div class="container-fluid">
+        <div class="tabs__wrap">
+            <div class="tabs-nav">
+                <div data-tab-name="tab-1" class="tabs-nav__item tabs-active">
+                    Architects & <br> Civil Engineers
+                    <span class="tabs-nav__item__image">
+                    </span>
+                </div>
+                <div id="tab-1" data-tab-name="tab-2" class="tabs-nav__item">
+                    Owners & <br> Project Developers
+                    <span class="tabs-nav__item__image">
+                    </span>
+                </div>
+                <div id="tab-2" data-tab-name="tab-3" class="tabs-nav__item">
+                    Building Contractors
+                    <span class="tabs-nav__item__image">
+                    </span>
+                </div>
+                <div data-tab-name="tab-4" class="tabs-nav__item">
+                    BIM Managers & <br>  Project Managers
+                    <span class="tabs-nav__item__image">
+                    </span>
+                </div>
+            </div>
+            <div class="tabs-content">
+                    
+                <div class="tabs-content__item tab-1 tabs-active">
+                <div class="tabs-card">
+                    <div class="tabs-card__image">
+                        <img src="img/tabs/Tabs-1@2x.png" alt="">
+                    </div>
+                    <div class="tabs-card__text">
+                        <div class="tabs-card__wrapper">
+                            <div class="tabs-card__item">
+                                <div class="tabs-card__title">
+                                <img src="img/tabs/tabs-icon.svg" alt=""> <span>All issues and documents centrally at a glance</span>
+                                </div>
+                                <div class="tabs-card__descr">
+                                    <p>
+                                        Visualization, processing, validation. Carry out all the steps in just one software.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tabs-card__item">
+                                <div class="tabs-card__title">
+                                <img src="img/tabs/tabs-icon.svg" alt=""> <span>Intelligent document management </span>
+                                </div>
+                                <div class="tabs-card__descr">
+                                    <p>
+                                        Structured storage of all file formats as well as the possibility of linking documents with building components and issues.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tabs-card__item">
+                                <div class="tabs-card__title">
+                                <img src="img/tabs/tabs-icon.svg" alt=""> <span>Increase in efficiency and quality </span>
+                                </div>
+                                <div class="tabs-card__descr">
+                                    <p>
+                                        More efficient design reviews and improved coordination in the project.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs-card__wrapper">
+                            <div class="tabs-card__item">
+                                <div class="tabs-card__title">
+                                <img src="img/tabs/tabs-icon.svg" alt=""> <span>Digital Twin </span>
+                                </div>
+                                <div class="tabs-card__descr">
+                                    <p>
+                                        An audit-proof merging of the BIM models of all disciplines. Thanks to openBIM, Visoplan supports all CAD tools with the IFC standard.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tabs-card__item">
+                                <div class="tabs-card__title">
+                                <img src="img/tabs/tabs-icon.svg" alt=""> <span>Successful together </span>
+                                </div>
+                                <div class="tabs-card__descr">
+                                    <p>
+                                        Improved collaboration between architects and civil engineers by eliminating the silo thinking between the disciplines.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tabs-card__item">
+                                <div class="tabs-card__title">
+                                <img src="img/tabs/tabs-icon.svg" alt=""> <span>Quick selection and marking of submodels </span>
+                                </div>
+                                <div class="tabs-card__descr">
+                                    <p>
+                                        Whether room model, TBE (Technical Building Equipment), CAFM or structural model - only display the information that you currently need.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tabs-item">
+                    <div class="tabs-item__title">
+                        Digital Twin in the IFC Viewer
+                    </div>
+
+                    <div class="tabs-item__wrapper">
+                        <div class="tabs-item__image">
+                            <div class="tabs-item__wrap">
+                                <div class="tabs-item__card tabs-item__card_1">
+                                    <img src="img/tabs/tabs-line-r.svg" alt="">
+                                    Combine any number of BIM-based process models (IFC standard) with one another 
+                                </div>
+
+                                <div class="tabs-item__card tabs-item__card_2">
+                                    <img src="img/tabs/tabs-line-r.svg" alt="">
+                                    Combine any number of BIM-based process models (IFC standard) with one another 
+                                </div>
+                            </div>
+                            <img class="tabs-item__images" src="img/tabs/tabs-video-1@2x.png" alt="">
+                            <div class="tabs-item__wrap">
+                                <div class="tabs-item__card tabs-item__card-2 tabs-item__card_3">
+                                    <img class="tabs-line__left" src="img/tabs/tabs-line-r.svg" alt="">
+                                    Combine any number of BIM-based process models (IFC standard) with one another 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="tabs-content__item tab-2">
+                    <div class="tabs-card">
+                        <div class="tabs-card__image">
+                            <img src="img/tabs/tabs-2@2x.png" alt="">
+                        </div>
+                        <div class="tabs-card__text">
+                            <div class="tabs-card__wrapper">
+                                <div class="tabs-card__item ">
+                                    <div class="tabs-card__title">
+                                    <img src="img/tabs/tabs-icon.svg" alt=""> <span>The view from above </span>
+                                    </div>
+                                    <div class="tabs-card__descr">
+                                        <p>
+                                            Maintain an overview of the status of the project by managing all data via Visoplan.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="tabs-card__item">
+                                    <div class="tabs-card__title">
+                                    <img src="img/tabs/tabs-icon.svg" alt=""> <span>Right in the middle instead of just on the sidelines</span>
+                                    </div>
+                                    <div class="tabs-card__descr">
+                                        <p>
+                                            You control the responsibilities and contribute from day one.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="tabs-card__item">
+                                    <div class="tabs-card__title">
+                                    <img src="img/tabs/tabs-icon.svg" alt=""> <span>Visualization in the IFC Viewer </span>
+                                    </div>
+                                    <div class="tabs-card__descr">
+                                        <p>
+                                            A virtual tour through the models and planning progress.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="tabs-card__item">
+                                    <div class="tabs-card__title">
+                                    <img src="img/tabs/tabs-icon.svg" alt=""> <span>Revision security </span>
+                                    </div>
+                                    <div class="tabs-card__descr">
+                                        <p>
+                                            The model versioning leads to a significantly more efficient claim management
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tabs-card__wrapper">
+                                <div class="tabs-card__item">
+                                    <div class="tabs-card__title">
+                                    <img src="img/tabs/tabs-icon.svg" alt=""> <span>The focus on the essentials </span>
+                                    </div>
+                                    <div class="tabs-card__descr">
+                                        <p>
+                                            The dashboard is your management cockpit and visualizes the most important developments in the construction project.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="tabs-card__item">
+                                    <div class="tabs-card__title">
+                                    <img src="img/tabs/tabs-icon.svg" alt=""> <span>Holistic approach </span>
+                                    </div>
+                                    <div class="tabs-card__descr">
+                                        <p>
+                                            With Visoplan, you can hand over the digital twin including all information and documents when you hand over. Thanks to the seamless database, the operating and maintenance costs for the building are reduced enormously.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="tabs-card__item">
+                                    <div class="tabs-card__title">
+                                    <img src="img/tabs/tabs-icon.svg" alt=""> <span>Central BIM authoring software for all project participants</span>
+                                    </div>
+                                    <div class="tabs-card__descr">
+                                        <p>
+                                            Visoplan relies on openBIM and supports all clash detection and CAD tools with the IFC standard.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs-item">
+                        <div class="tabs-item__title">
+                            Dashboard
+                        </div>
+            
+                        <div class="tabs-item__wrapper">
+                            <div class="tabs-item__image">
+                                <div class="tabs-item__wrap tabs-item__wrap-2">
+
+                                    <div class="tabs-item__card tabs-item__card_1 tabs-item__card--1">
+                                        <img src="img/tabs/tabs-line-r.svg" alt="">
+                                        The essentials at a glance 
+                                    </div>
+
+                                </div>
+
+                                <img class="tabs-item__images" src="img/tabs/Tabs-video-2@2x.png" alt="">
+
+                                <div class="tabs-item__wrap tabs-item__wrap-2">
+                                    <div class="tabs-item__card tabs-item__card-2 tabs-item__card_2 tabs-item__card-2- mb5">
+                                        <img class="tabs-line__left" src="img/tabs/tabs-line-r.svg" alt="">
+                                        Responsibilities and deadlines 
+                                    </div>
+
+                                    <div class="tabs-item__card tabs-item__card-2 tabs-item__card_3">
+                                        <img class="tabs-line__left" src="img/tabs/tabs-line-r.svg" alt="">
+                                        Complete data for precise data analysis 
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        </div>
+                </div>
+                <div class="tabs-content__item tab-3">
+                    <div class="tabs-card">
+                        <div class="tabs-card__image">
+                            <img src="img/tabs/tabs-4@2x.png" alt="">
+                        </div>
+                        <div class="tabs-card__text">
+                            <div class="tabs-card__wrapper tabs-card__wrapper-3">
+                                <div class="tabs-card__item">
+                                    <div class="tabs-card__title">
+                                    <img src="img/tabs/tabs-icon.svg" alt=""> <span>Improved collaboration </span>
+                                    </div>
+                                    <div class="tabs-card__descr">
+                                        <p>
+                                            Deviations between construction planning and construction can be corrected efficiently.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="tabs-card__item">
+                                    <div class="tabs-card__title">
+                                    <img src="img/tabs/tabs-icon.svg" alt=""> <span>Upload construction site photos centrally </span>
+                                    </div>
+                                    <div class="tabs-card__descr">
+                                        <p>
+                                            Upload photos and documents to the Visoplan DMS and link them to construction components or issues.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tabs-card__wrapper tabs-card__wrapper-3">
+                                <div class="tabs-card__item">
+                                    <div class="tabs-card__title">
+                                    <img src="img/tabs/tabs-icon.svg" alt=""> <span>Complete documentation </span>
+                                    </div>
+                                    <div class="tabs-card__descr">
+                                        <p>
+                                            The construction team receives complete documentation upon handover.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="tabs-card__item">
+                                    <div class="tabs-card__title">
+                                    <img src="img/tabs/tabs-icon.svg" alt=""> <span>Construction Management Software</span>
+                                    </div>
+                                    <div class="tabs-card__descr">
+                                        <p>
+                                            Take advantage of the linking of components, documents and issues to ensure efficient and smooth construction
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs-item">
+                        <div class="tabs-item__title">
+                            DMS (Document Management System)
+                        </div>
+            
+                        <div class="tabs-item__wrapper">
+                            <div class="tabs-item__image">
+                                <div class="tabs-item__wrap">
+
+                                    <div class="tabs-item__card tabs-item__card-3- tabs-item__card_1">
+                                        <img src="img/tabs/tabs-line-r.svg" alt="">
+                                        Various filter options 
+                                    </div>
+            
+                                    <div class="tabs-item__card tabs-item__card_2">
+                                        <img src="img/tabs/tabs-line-r.svg" alt="">
+                                        Upload and download in next to no time 
+                                    </div>
+                                </div>
+
+                                <img class="tabs-item__images" src="img/tabs/Tabs-video-3@2x.png" alt="">
+
+                                <div class="tabs-item__wrap">
+                                    <div class="tabs-item__card tabs-item__card-2 tabs-item__card_3">
+                                        <img class="tabs-line__left" src="img/tabs/tabs-line-r.svg" alt="">
+                                        All data central and structured 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+                <div class="tabs-content__item tab-4">
+                    <div class="tabs-card">
+                        <div class="tabs-card__image">
+                            <img src="img/tabs/Tabs-4@2x.png" alt="">
+                        </div>
+                        <div class="tabs-card__text">
+                            <div class="tabs-card__wrapper">
+                                <div class="tabs-card__item">
+                                    <div class="tabs-card__title">
+                                    <img src="img/tabs/tabs-icon.svg" alt=""> <span>Comprehensive support for the BIM project</span>
+                                    </div>
+                                    <div class="tabs-card__descr">
+                                        <p>
+                                            From structuring to maintenance and management of the model data. 
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="tabs-card__item">
+                                    <div class="tabs-card__title">
+                                    <img src="img/tabs/tabs-icon.svg" alt=""> <span>An eye for the detail </span>
+                                    </div>
+                                    <div class="tabs-card__descr">
+                                        <p>
+                                            Check individual sub-models for errors. View changes between different versions of a BIM model in the model history and evaluate them.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="tabs-card__item">
+                                    <div class="tabs-card__title">
+                                    <img src="img/tabs/tabs-icon.svg" alt=""> <span>Improved collaboration </span>
+                                    </div>
+                                    <div class="tabs-card__descr">
+                                        <p>
+                                            All those involved in the project collaborate via Visoplan and store their models and documents centrally in the DMS.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tabs-card__wrapper">
+                                <div class="tabs-card__item">
+                                    <div class="tabs-card__title">
+                                    <img src="img/tabs/tabs-icon.svg" alt=""> <span>Coordination of BIM planning </span>
+                                    </div>
+                                    <div class="tabs-card__descr">
+                                        <p>
+                                            Review of the current status and assignment of tasks in the construction project. Control and manage milestones of your project across all trades.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="tabs-card__item">
+                                    <div class="tabs-card__title">
+                                    <img src="img/tabs/tabs-icon.svg" alt=""> <span>All issues and documents centrally at a glance </span>
+                                    </div>
+                                    <div class="tabs-card__descr">
+                                        <p>
+                                            Visualization, processing, validation. Carry out all the steps in just one software.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="tabs-card__item">
+                                    <div class="tabs-card__title">
+                                    <img src="img/tabs/tabs-icon.svg" alt=""> <span>Intelligent linking of the digital twin with documents and issues </span>
+                                    </div>
+                                    <div class="tabs-card__descr">
+                                        <p>
+                                            model information (documents, issues and components) can be linked with one another. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs-item">
+                        <div class="tabs-item__title">
+                            Model History
+                        </div>
+            
+                        <div class="tabs-item__wrapper">
+                            <div class="tabs-item__image">
+                                <div class="tabs-item__wrap tabs-item__wrap-2">
+                                    <div class="tabs-item__card tabs-item__card_1">
+                                        <img src="img/tabs/tabs-line-r.svg" alt="">
+                                        Revision security thanks to automatic versioning 
+                                    </div>
+                                </div>
+
+                                <img class="tabs-item__images" src="img/tabs/tabs-video-4@2x.png" alt="">
+                                
+                                <div class="tabs-item__wrap tabs-item__wrap-2">
+                                    <div class="tabs-item__card tabs-item__card-2 tabs-item__card_2 tabs-item__card-2- mb5">
+                                        <img class="tabs-line__left" src="img/tabs/tabs-line-r.svg" alt="">
+                                        All differences between two model versions at a glance 
+                                    </div>
+
+                                    <div class="tabs-item__card tabs-item__card_3 tabs-item__card-2">
+                                        <img class="tabs-line__left" src="img/tabs/tabs-line-r.svg" alt="">
+                                        Quick and easy retrieval of the individual model uploads 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <div class="line-tabs">
+    </div>
+
+<section class="process">
+    <div class="container">
+        <div class="process__wrap">
+            <div class="process__title">
+                For efficient and sustainable planning in the BIM process. <br> The most important functions of Visoplan in a compact video:
+            </div>
+            <div class="video-video">
+                <video preload="auto" muted autoplay loop src="img/video/tabs-en-1.mp4"></video>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="process process-2">
+    <div class="container">
+        <div class="process__wrap">
+            <div class="process__title process__title-2">
+                What is a CDE and how can Visoplan be <br> located as a CDE in the BIM process? 
+            </div>
+            <div class="process__subtitle">
+                BIM learning in cooperation with Simsalabim.
+            </div>
+            <div class="video-video">
+                <video preload="auto" muted autoplay loop src="img/video/tabs-2.m4v"></video>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="start start-2">
+    <div class="container">
+        <div class="start__wrap">
+            <div class="start__title">
+                Deal enough? <br>
+                Then register for Visoplan:
+            </div>
+            <form action="" class="start__form">
+                <div class="start__top">
+                    Get started today
+                </div>
+                <div class="start__body">
+                    <input placeholder="Email Address*" required type="email" class="start-input start-email">
+                    <input placeholder="Full Name*" required type="text" class="start-input start-name" name="" id="">
+                    <input placeholder="Phone" type="number" class="start-input start-phone" name="" id="">
+
+                   <div class="start__button">
+                    <button class="start-btn">
+                        Request Now
+                    </button>
+                   </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<section class="ask">
+    <div class="ask-line"></div>
+  <div class="container">
+      <div class="ask__wrap">
+          <div class="ask__title">
+              Already in the future with Visoplan
+          </div>
+          <div class="ask__block">
+              <div class="ask__text">
+                  Asking questions doesn’t cost anything!
+                  Contact Us at any time.
+              </div>
+              <form action="" class="ask__form">
+                  <input placeholder="Email Address*" required type="email" class="ask__input ask__email">
+                  <div class="ask__name-phone">
+                      <input placeholder="Full Name*" required type="text" class="ask__name ask__input">
+                      <input placeholder="Phone" type="number" class="ask__input ask__phone">
+                  </div>
+                  <div class="ask__button">
+                      <button class="ask__btn">
+                          Submit
+                      </button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
+<footer class="footer">
+    <div class="container-fluid">
+        <div class="footer__wrap">
+            <a href="#" class="footer-nav">
+                <img src="img/Logo/Visoplan-Logo__footer.svg" alt="" class="footer__logo">
+            </a>
+            <div class="footer-body">
+                <div class="footer__block">
+                    <div class="footer__title">
+                        Application
+                    </div>
+                    <ul class="footer__list">
+                        <li><a href="tabs.html" class="footer__link">Use Cases</a></li>
+                        <li><a href="IFC-Viewer.html" class="footer__link">IFC Viewer</a></li>
+                        <li><a href="collaboration.html" class="footer__link">BIM Collaboration Software</a></li>
+                        <li><a href="managment.html" class="footer__link">Issue Management</a></li>
+                        <li><a href="dms.html" class="footer__link">Document Management (DMS)</a></li>
+                        <li><a href="analytics.html" class="footer__link">BIM Analytics</a></li>
+                        <li><a href="price.html" class="footer__link">Pricing</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer__wrapper">
+                    <div class="footer-block">
+                        <div class="footer__title">
+                            Knowledge
+                        </div>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">Blog</a></li>
+                            <li><a href="#" class="footer__link">Help</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-block">
+                        <div class="footer__title">
+                            language
+                        </div>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link footer-lang">German</a></li>
+                            <li><a href="#" class="footer__link footer-lang footer-lang-active">Englisch</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__block">
+                    <div class="footer__title">
+                        company
+                    </div>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">About Us</a></li>
+                            <li><a href="#" class="footer__link">Career & Jobs</a></li>
+                            <li><a href="impresum.html" class="footer__link">Imprint</a></li>
+                            <li><a href="#" class="footer__link">Privacy Notice</a></li>
+                            <li><a href="#" class="footer__link">Terms & Conditions</a></li>
+                        </ul>
+                </div>
+                <div class="footer__block footer__block-w">
+                    <div class="footer__title-fz">
+                        Always up-to-date.
+                        With the Visoplan BIM newsletter.
+                    </div>
+                    <form action="" class="footer__form">
+                        <input placeholder="Email address " required type="email" name="" id="">
+                            <button class="footer__btn">
+                                Sign Up
+                            </button>
+                        
+                    </form>
+                    <div class="footer_lang">
+                      <div class="footer__title">
+                          language
+                      </div>
+                      <ul class="footer__list">
+                          <li><a href="#" class="footer__link footer-lang">German </a></li>
+                          |
+                          <li><a href="#" class="footer__link footer-lang footer-lang-active"> Englisch</a></li>
+                      </ul>   
+                    </div>
+                    <div class="footer-social">
+                        <div class="footer-social__title">
+                            Follow us!
+                        </div>
+                        <div class="footer-social__image">
+                            <a href="#"><img src="img/icons/Linkedin.svg" alt="Linkedin"></a>
+                            <a href="#"><img src="img/icons/Facebook.svg" alt="Facebook"></a>
+                            <a href="#"><img src="img/icons/YouTube.svg" alt="YouTube"></a>
+                            <a href="#"><img src="img/icons/Instagram.svg" alt="Instagram"></a>
+                            <a href="#"><img src="img/icons/Xing.svg" alt="Xing"></a>
+                            <a href="#"><img src="img/icons/Twitter.svg" alt="Twitter"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

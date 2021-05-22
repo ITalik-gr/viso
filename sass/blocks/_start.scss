@@ -1,0 +1,227 @@
+
+.start {
+  padding-top: 332px;
+  padding-bottom: 185px;
+  clip-path: polygon(0 0, 100% 17%, 100% 100%, 0 100%);
+  background: #00B3C1;
+  position: relative;
+  z-index: 3; 
+  &-2 {
+    padding-top: 334px;
+    margin-bottom: -240px;
+    padding-bottom: 415px;
+    z-index: 1;
+    clip-path: polygon(100% 6%,100% 79%,58% 98.9%,0 91%,0 0)!important;
+  }
+  &:after {
+    z-index: -1;
+    content: '';
+    width: 891px;
+    height: 507px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    background: url(../img/bg/start-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+    text-align: center;
+    max-width: 795px;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 135%;
+    color: #FFFFFF;
+    margin-right: 190px;
+  }
+  &__top {
+    width: 100%;
+    background: #5A667B;
+    height: 70px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 12px 12px 0px 0px;
+  }
+  &__body {
+    margin-top: 30px;
+    padding: 0px 39px;
+  }
+  &__form {
+    width: 470px;
+    height: 383.66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: -15px 25px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    background: #F2F2F2;
+  }
+  &-input {
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.1));
+    background: #FFFFFF;
+    border-radius: 3px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: rgba(90, 102, 123, 0.7);
+    border: none;
+    outline: none;
+    width: 392px;
+    height: 43px;
+    margin-bottom: 18px;
+    padding: 0px 18px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &::placeholder {
+      color: rgba(90, 102, 123, 0.7);
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+  &__button {
+    display: flex;
+    justify-content: center;
+  }
+  &-btn {
+    margin-top: 34px;
+    background: #4B6EF5;
+    box-shadow: -4px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    width: 210px;
+    height: 45px;
+    outline: none;
+    border: none;
+  }
+}
+
+
+
+
+
+@media (max-width: 1400px) { //1200
+
+}
+
+@media (max-width: 1200px) { //992
+  .start {
+    overflow: hidden;
+    &__title {
+      font-size: 49px;
+      margin-right: 100px;
+
+    }
+  }
+}
+
+
+@media (max-width: 992px) { //768 
+  .start {
+    clip-path: polygon(0 0,100% 10%,100% 100%,0 100%);
+    padding-top: 242px;
+    &-2 {
+      padding-bottom: 315px;
+    }
+    &__wrap {
+      flex-direction: column;
+    }
+    &__title {
+      text-align: center;
+      margin-bottom: 40px;
+      margin-right: 0;
+    }
+  }
+  .tabs-line {
+
+  }
+}
+
+@media (max-width: 768px) { //576 
+  .start {
+    margin-top: 45px; 
+    clip-path: polygon(0 0,100% 8%,100% 100%,0 100%);
+    &-2 {
+      margin-bottom: -255px;
+    }
+  }
+}
+
+@media (max-width: 576px)  { //320
+  .start {
+    margin-top: 60px;
+    padding-top: 65px;
+    padding-bottom: 85px;
+    clip-path: polygon(0 0,100% 3%,100% 100%,0 100%);
+    &-2 {
+      margin-bottom: -100px;
+      padding-bottom: 195px;
+      clip-path: polygon(100% 6%,100% 88%,66% 99.9%,0 93%,0 0)!important;
+    }
+    &__title {
+      font-size: 29px;
+      line-height: 130%;
+      margin-bottom: 75px;
+    }
+    &-input {
+      width: 230px;
+      height: 40px;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 14px;
+      margin-bottom: 10px;
+    }
+    &-btn {
+      width: 185px;
+      height: 38px;
+      font-size: 13px;
+      line-height: 120%;
+      margin-top: 23px;
+    }
+    &__form {
+      width: 100%;
+      height: 320px;
+    }
+    &-input {
+      width: 100%;
+    }
+    &__body {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 15px;
+    }
+    &__top {
+      font-size: 13px;
+      line-height: 140%;
+      height: 60px;
+    }
+  }
+}

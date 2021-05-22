@@ -1,0 +1,156 @@
+
+.check {
+  padding-top: 72px;
+  padding-bottom: 112px;
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    max-width: 360px;
+    &:before {
+      content: '';
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 2px;
+      background: #F0F5FA;
+      height: 100%;
+      right: -60px;
+    }
+    &:last-child {
+      &::before {
+        display: none;
+      }
+    }
+  }
+  &-nav { 
+    display: flex;
+    justify-content: space-between;
+  }
+  &-body {
+    padding-left: 50px;
+  }
+  &-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: rgba(37, 38, 38, 0.98);
+  }
+  &-image {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin-right: 15px;
+    &-1 {
+      background: #004D95;
+    }
+    &-2 {
+      background: #AA007B;
+    }
+    &-3 {
+      background: #20C1CD;
+    }
+  }
+  &-descr {
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 150%;
+    color: rgba(37, 38, 38, 0.98);
+    p {
+      max-width: 310px;
+      font-family: 'Roboto';
+    }
+  }
+}
+
+
+@media (max-width: 1440px) {
+  .check {
+    &-card {
+
+    }
+  }
+}
+
+@media (max-width: 1400px) { //1200
+  .check {
+    margin-top: -80px;
+    &-card {
+      max-width: 340px;
+      min-height: 200px;
+      &:before {
+        right: -20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) { //992
+  .check {
+    &-card {
+
+    }
+  }
+}
+
+
+@media (max-width: 992px) { //768 
+  .check {
+    &-card {
+      &:before {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) { //576 
+  .check {
+    padding-bottom: 42px;
+    &-title {
+      font-size: 28px;
+    }
+    &-image {
+      width: 30px;
+      height: 30px;
+      img {
+        width: 65%;
+      }
+    }
+    &-descr {
+      font-size: 16px;
+    }
+    &-card {
+      &:before {
+        display: block;
+        bottom: 0;
+        right: 0;
+        width: 85%;
+        height: 2px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px)  { //320
+  .check {
+    &-card {
+
+    }
+  }
+
+}
+@media (max-width: 455px) {
+
+}

@@ -1,0 +1,75 @@
+
+.city {
+  background: url(../img/bg/video-city@2x.webp), #5A667B;
+  clip-path: polygon(32% 15%,100% 0,100% 100%,0 100%,0 6%);
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height: 960px;
+  &__wrap {
+    padding-top: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 135%;
+    color: #FFFFFF;
+    max-width: 747px;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  &__subtitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+  }
+}
+
+@media (max-width: 1400px) { //1200
+
+}
+
+@media (max-width: 1200px) { //992
+
+}
+
+
+@media (max-width: 992px) { //768 
+
+}
+
+@media (max-width: 768px) { //576 
+
+}
+
+@media (max-width: 576px)  { //320
+  .city {
+    clip-path: polygon(32% 10%,100% 0,100% 100%,0 100%,0 6%)!important;
+    height: 750px;
+    &__wrap {
+      padding-top: 235px;
+    }
+    &__title {
+      font-size: 29px;
+      line-height: 130%;
+      max-width: 347px;
+      margin-bottom: 35px;
+    }
+    &__subtitle {
+      text-align: center;
+      font-size: 13px;
+      line-height: 140%;
+      max-width: 230px;
+    }
+  }
+}
+  
+

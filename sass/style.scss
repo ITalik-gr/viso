@@ -1,0 +1,232 @@
+
+
+@import 'libs/bootstrap-reboot.min';
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+.container-fluid {
+    padding-right: 80px;
+    padding-left: 80px;
+    max-width: 1560px;
+}
+input {
+    font-family: 'Roboto', sans-serif!important;
+}
+.cde-card__list {
+    li {
+        font-family: 'Roboto', sans-serif!important;
+    }
+}
+.page-title {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.container-drop {
+    padding: 0px 80px;
+}
+.line {
+    background: rgba(75, 110, 245, 0.6);
+    width: 100%;
+    height: 276px;
+    clip-path: polygon(58.4% 83.3%,100.6% 0,100% 17%,58.1% 98.7%,0 66%,0 50.6%);
+    margin: -230px 0px -230px 0px;
+    &-top {
+        clip-path: polygon(67.4% 1.8%,100% 15.6%,100% 30%,67.8% 16%,0 98%,0 82.2%);
+        background: rgba(75, 110, 245, 0.6);
+        width: 100%;
+        height: 316px;
+        margin-top: -260px;
+        &-team {
+            margin-top: -290px;
+        }
+        &-impresum {
+            margin-top: -138px;
+            clip-path: polygon(67.4% 1.8%,100% 9.4%,100% 24%,67.8% 16%,0 59%,0 43.6%);
+        }
+    }
+    &-data {
+        margin-top: -186px;
+        clip-path: polygon(67.4% 1.8%,100% 9.6%,119% 30%,67.8% 17%,0 59%,0 43.2%);
+    }
+    &-tabs {
+        background: #F0F5FA;
+        width: 100%;
+        height: 321px;
+        clip-path: polygon(71% 32%, 100% 9%, 100% 52%, 71% 72%, 0 41%, 0 0);
+        margin-top: 90px;
+    }
+  }
+
+.mt2 {
+    margin: 0px 0px -230px 0px;
+}
+
+
+@import 'blocks/software';
+@import 'blocks/cases';
+@import 'blocks/cde';
+@import 'blocks/plugin';
+@import 'blocks/apps';
+@import 'blocks/start';
+@import 'blocks/info';
+@import 'blocks/ask';
+@import 'blocks/footer';
+@import 'blocks/ifc-check';
+@import 'blocks/base';
+@import 'blocks/data';
+@import 'blocks/city';
+@import 'blocks/slider';
+@import 'blocks/drop-menu';
+@import 'blocks/imp-contact';
+@import 'blocks/server';
+@import 'blocks/model';
+@import 'blocks/expert';
+@import 'blocks/calendar';
+@import 'blocks/look';
+@import 'blocks/innovation';
+@import 'blocks/team';
+@import 'blocks/tabs';
+@import 'blocks/process';
+@import 'blocks/data-apps';
+@import 'blocks/data-descr';
+@import 'blocks/data-content';
+@import 'blocks/video';
+@import 'blocks/header';
+.mb0 {
+    margin-bottom: 0;
+}
+.mb5 {
+    margin-bottom: 90px!important;
+}
+.tac {
+    text-align: center;
+}
+
+.dn {
+    display: none;
+}
+
+
+@import 'base/media';
+
+
+@media (min-width: 1201px) {
+    // .line-top-price {
+    //     margin-top: -263px;
+    // }
+}
+
+@media (max-width: 1400px) { //1200
+    .line-top-price {
+        margin-top: -167px!important;
+        clip-path: polygon(67.4% 2.8%,100% 11.7%,100% 26%,67.8% 16%,0 45%,0 31.3%)!important;
+    }
+    .line-top-impresum {
+        clip-path: polygon(67.4% 2.8%,100% 9.3%,100% 23%,67.8% 16%,0 37%,0 22.7%);
+        margin-top: -119px;
+    }
+    .line-data {
+        clip-path: polygon(67.4% 2.8%,100% 9.4%,100% 22%,66.8% 16%,0 35%,0 22.5%)!important;
+        margin-top: -156px!important;
+    }
+    .container-drop {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 1200px) { //992
+    .line-top-team {
+        clip-path: polygon(67.4% 1.8%,100% 13.4%,100% 26%,67.8% 16%,0 46%,0 32.5%);
+        margin-top: -173px;
+    }
+    .line-top-price {
+        margin-top: -262px!important;
+        clip-path: polygon(67.4% 2.8%,100% 17.4%,100% 30%,67.8% 16%,0 62%,0 48.3%)!important;
+    }
+    .line-data {
+        clip-path: polygon(67.4% 2.8%,100% 9.4%,100% 22%,66.8% 16%,0 38%,0 25.5%)!important;
+        margin-top: -137px!important;
+    }
+}
+
+
+@media (max-width: 992px) { //768 
+    .line-top-team {
+        clip-path: polygon(67.4% 1.8%,100% 13.4%,100% 26%,67.8% 18%,0 46%,0 32.5%);
+    }
+    .line-top-price {
+        margin-top: -122px!important;
+        -webkit-clip-path: polygon(67.4% 2.8%,100% 17.4%,100% 30%,67.8% 16%,0 62%,0 48.3%)!important;
+        clip-path: polygon(67.4% 3.3%,100% 9.7%,100% 24%,67.8% 16%,0 36%,0 23.3%)!important;
+    }
+    .line-top-impresum {
+        clip-path: polygon(67.4% 2.8%,100% 9.1%,100% 23%,67.8% 16%,0 36%,0 21.9%);
+        margin-top: -114px;
+    }
+}
+
+@media (max-width: 768px) { //576 
+    .line-top-team {
+        clip-path: polygon(67.4% 1.8%,100% 13.4%,100% 31%,67.8% 24%,0 48%,0 32.5%);
+    }
+    .line-top-price {
+        margin-top: -113px!important;
+        -webkit-clip-path: polygon(67.4% 2.8%,100% 17.4%,100% 30%,67.8% 16%,0 62%,0 48.3%)!important;
+        clip-path: polygon(67.4% 3.3%,100% 9.3%,100% 21%,67.8% 14%,0 33%,0 21.8%)!important;
+    }
+    .line-top-impresum {
+        clip-path: polygon(67.4% 2.8%,100% 6.1%,100% 18%,67.8% 14%,0 25%,0 13%);
+        margin-top: -66px;
+    }
+    .line-data {
+        clip-path: polygon(67.4% 2.8%,100% 9.4%,100% 22%,66.8% 16%,0 38%,0 24.5%)!important;
+        margin-top: -130px!important;
+    }
+}
+
+@media (max-width: 576px)  { //320
+    .container-drop {
+        padding: 0 20px;
+    }
+    .line-top-team {
+        clip-path: polygon(57.4% 11.8%,100% 15.4%,100% 31%,67.8% 23%,0 47%,0 27.5%);
+    }
+    .line-top-price {
+        clip-path: polygon(67.4% 3.3%,100% 5.8%,100% 16%,67.8% 12%,0 23%,0 12.8%)!important;
+    }
+    .price-line {
+        clip-path: polygon(58% 59%,100% 53.6%,100% 65%,58% 71%,0 56%,0 44.9%);
+    }
+    .line-data {
+        clip-path: polygon(67.4% 2.8%,100% 9.4%,100% 22%,66.8% 16%,0 38%,0 24.5%)!important;
+        margin-top: -130px!important;
+        
+    }
+
+}
+@media (max-width: 455px) {
+    .line-top-team {
+        clip-path: polygon(58.4% -252.2%,100% 15.4%,100% 28%,67.8% 23%,0 37%,0 27.5%);
+    }
+    .line-top-impresum {
+        clip-path: polygon(66.4% 2.8%,100% 4.1%,100% 13%,67.8% 11%,0 18%,0 8%);
+        margin-top: -66px;
+    }
+    .line-data {
+        clip-path: polygon(67.4% 2.8%,100% 5.4%,100% 16%,68.8% 13%,0 24%,0 13.6%)!important;
+  }
+}
+  
+  

@@ -1,0 +1,218 @@
+
+.plugin {
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  padding: 227px 0px 192px 0px;
+  background: #F0F5FA;
+  clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+  position: relative;
+  z-index: 5;
+  &__wrap {
+    padding-top: 187px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 135%;
+    color: rgba(37, 38, 38, 0.98);
+    margin-right: 145px;
+  }
+  &__wrapper {
+    padding-top: 40px;
+    width: 275px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+    min-width: 115px;
+    &__image {
+      filter: drop-shadow(-20px 20px 40px rgba(110, 130, 146, 0.3));
+    }
+    &__title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 130%;
+      color: #5A667B;
+      margin-top: 25px;
+      span {
+        color: #4B6EF5;
+        margin-top: 10px;
+      }
+    }
+  }
+  &-2 {
+    padding: 267px 0px 266px 0px;
+    z-index: 2;
+    background: #D2E2EE;
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+    margin-top: -90px;
+    &__wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &__title {
+      font-weight: 600;
+      font-size: 38px;
+      line-height: 135%;
+      color: rgba(37, 38, 38, 0.98);
+      margin-right: 50px;
+    }
+    &__descr {
+      font-weight: 600;
+      font-size: 23px;
+      line-height: 140%;
+      color: #5A667B;
+      p {
+        max-width: 470px;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+@media (min-width: 1440px) {
+
+}
+
+@media (max-width: 1400px) { //1200
+
+}
+
+@media (max-width: 1200px) { //992
+  .plugin {
+    clip-path: polygon(0 0,100% 10%,100% 100%,0 90%);
+    padding: 107px 0 192px 0;
+    &-2 {
+      clip-path: polygon(0 10%,100% 0,100% 90%,0 100%);
+      padding: 217px 0 216px 0;
+      &__title {
+        font-size: 32px;
+      }
+      &__descr {
+        font-size: 20px;
+      }
+    }
+    &__title {
+      font-size: 34px;
+      line-height: 129%;
+    }
+  }
+}
+
+
+@media (max-width: 992px) { //768 
+  .plugin {
+    &__wrap {
+      align-items: center;
+      flex-direction: column;
+    }
+    &-2 {
+      &__title {
+        font-size: 27px;
+        margin-right: 0;
+        margin-bottom: 60px;
+        text-align: center;
+      }
+      &__descr {
+        font-size: 19px;
+        p {
+          max-width: 360px;
+        }
+      }
+    }
+    &__title {
+      font-size: 29px;
+      margin-right: 0;
+      margin-bottom: 80px;
+      text-align: center;
+    }
+    &__wrapper {
+      padding-top: 0;
+    }
+  }
+}
+
+@media (max-width: 768px) { //576 
+  .plugin {
+    padding: 17px 0 122px 0;
+    &-2 {
+      &__wrap {
+        flex-direction: column;
+      }
+      &__descr {
+        text-align: center;
+      }
+    }
+    &__wrap {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    &__title {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@media (max-width: 576px)  { //320
+  .plugin {
+    clip-path: polygon(0 0,100% 4%,100% 100%,0 96%);
+    &-2 {
+      clip-path: polygon(0 19%,100% 12%,102% 94%,0 100%);
+      padding: 190px 0px 100px 0px;
+      &__title {
+        font-size: 20px;
+        line-height: 130%;
+      }
+      &__descr {
+        font-size: 17px;
+        line-height: 130%;
+      }
+    }
+    &__wrap {
+      padding-top: 87px;
+    }
+    &__title {
+      font-size: 20px;
+      line-height: 130%;
+      br {
+        display: none;
+      }
+    }
+    &__wrapper {
+      justify-content: space-around;
+    }
+    &-card {
+      &__title {
+        font-size: 13px;
+        line-height: 120%;
+        span {
+          font-size: 10px;
+          line-height: 120%;
+        }
+      }
+    }
+  }
+}
+  

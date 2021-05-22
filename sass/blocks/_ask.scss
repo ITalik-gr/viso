@@ -1,0 +1,244 @@
+
+
+
+.ask {
+  background: url(../../img/bg/Ask-image@2x.webp);
+  clip-path: polygon(58.1% 24.4%,100% 0,100% 100%,0 100%,0 14.7%);
+  mix-blend-mode: multiply;
+  background-size: cover;
+  background-position: 0px 18%;
+  background-repeat: no-repeat;
+  padding: 360px 0px 284px 0px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: -0.9px;
+  &-line {
+    clip-path: polygon(60% 35%,100% 0,100% 17%,58% 96%,0 64%,0 0);
+    position: absolute;
+    left: 0;
+    top: -10px;
+    background: rgba(75,110,245,.6);
+    width: 100%;
+    height: 276px;
+    z-index: 10;
+  }
+  &:before {
+    content: '';
+    background: linear-gradient(115.51deg, rgba(37, 38, 38, 0) 52.61%, rgba(0, 0, 0, 0.85) 89.67%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    mix-blend-mode: multiply;
+    width: 100%;
+    height: 76%;
+    position: absolute;
+    bottom: -15px;
+    left: -32px;
+    filter: blur(30px);
+  }
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 65px;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 135%;
+    color: #FFFFFF;
+    max-width: 423px;
+    z-index: 9;
+  }
+  &__text {
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 140%;
+    text-align: right;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+    max-width: 470px;
+  }
+  &__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 9;
+  } 
+  &__form {
+
+  }
+  &__input {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    width: 230px;
+    height: 45px;
+    padding: 5px 19px;
+    outline: none;
+    border: none;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: rgba(90, 102, 123, 0.7);
+  }
+  &__email {
+    width: 474px;
+  }
+  &__name {
+    margin-right: 10px;
+  }
+  &__name-phone {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__button {
+    margin-top: 18px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__btn {
+    background: #4B6EF5;
+    box-shadow: -4px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    width: 146px;
+    height: 45px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+  }
+  .line {
+    top: -5px;
+    left: 0px;
+    position: absolute;
+  }
+}
+
+
+
+
+@media (max-width: 1400px) { //1200
+
+}
+
+@media (max-width: 1200px) { //992
+  .ask {
+    &__title {
+      font-size: 53px;
+      line-height: 129%;
+    }
+    &__wrap {
+      padding: 0 15px;
+    }
+  }
+}
+
+
+@media (max-width: 991px) { //768 
+  .line {
+    clip-path: polygon(66% 46%,100% 32%,100% 47%,66% 61%,0 25%,0 4%);
+    position: absolute;
+    top: 12px;
+    left: 0;
+  }
+  .ask {
+    position: relative;
+    clip-path: polygon(66% 11%,100% 0%,100% 50%,100% 100%,0 100%,0 4%);
+    &-line {
+      // clip-path: polygon(58% 26%, 100% 0, 100% 15%, 58% 43%, 0 19%, 0 0);
+    }
+  }
+  .mt2 {
+    margin: 0 0 -255px 0;
+  }
+  .ask {
+    padding: 320px 0 194px 0;
+    &__wrap {
+      flex-direction: column;
+      text-align: center;
+      padding: 0;
+    }
+    &__text {
+      text-align: center;
+    }
+    &__title {
+      margin-bottom: 70px;
+      max-width: 95%;
+    }
+    &__button {
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 768px) { //576 
+  .ask {
+    &-line {
+      top: 7px;
+    }
+    &__title {
+      font-size: 49px;
+      line-height: 119%;
+      max-width: 100%;
+    }
+
+  }
+}
+
+@media (max-width: 576px)  { //320
+  .ask {
+    padding: 136px 0px 120px 0px;
+    &-line {
+      top: 0px!important;
+      clip-path: polygon(66% 25%,100% 0,100% 18%,68% 50%,0 31%,0 0);
+    }
+    &__title {
+      font-size: 29px;
+      line-height: 130%;
+      margin-bottom: 113px;
+      margin-top: 72px;
+    }
+    &__block {
+      justify-content: center;
+      align-items: center;
+    }
+    &__text {
+      font-size: 17px;
+      line-height: 130%;
+      max-width: 290px;
+      justify-content: center;
+      margin-bottom: 35px;
+    }
+    &__input {
+      font-size: 12px;
+      line-height: 14px;
+      width: 277px;
+      height: 40px;
+      margin-bottom: 10px;
+    }
+    &__name-phone {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0;
+    }
+    &__name {
+      margin-right: 0;
+    }
+  }
+  .line {
+    top: -15px;
+    clip-path: polygon(65% 45%,100% 31%,100% 46%,66% 61%,0 30%,0 7%);
+  }
+
+
+}

@@ -1,0 +1,48 @@
+
+.team {
+  padding-bottom: 90px;
+  &__text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 135%;
+    text-align: center;
+    color: #252626;
+    margin-bottom: 72px;
+  }
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &-card {
+    margin-bottom: 50px;
+  }
+  &__image {
+    img {
+      max-width: 308px;
+      max-height: 295px;
+    }
+  }
+  &__name {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(37, 38, 38, 0.98);
+  }
+  &__job {
+    margin-top: 6px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #252626;
+  }
+}

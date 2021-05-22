@@ -1,0 +1,130 @@
+
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1270px;
+    padding-right: 0;
+    padding-left: 0;
+}
+}
+@media (max-width: 1400px) { //1200
+
+}
+
+@media (max-width: 1200px) { //992
+  .slider {
+    &__image {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) { //768 
+
+}
+
+@media (max-width: 768px) { //576 
+  .container-fluid {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 576px)  { //320
+  .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+
+
+
+
+
+
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-moz-min-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) { 
+ /* стили для дисплеев типа Retina */
+    .header {
+        background: url(../img/bg/header-image@4x.webp);
+        background-size: cover;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+    }
+    .ask {
+        background: url(../img/bg/Ask-image@4x.webp);
+        mix-blend-mode: multiply;
+        background-size: cover;
+        background-position: 0px 18%;
+        background-repeat: no-repeat;
+    }
+    .data {
+        background: url(../img/video/Date@4x.webp);
+                background-size: cover;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+
+    }
+    .header-ifc {
+        background: url(../img/bg/ifc-header@4x.webp);
+        background-size: cover;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+    }
+    .header-colloboration {
+        background: url(../img/bg/collobaration-bg@4x.webp);
+        background-size: cover;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+    }
+    .header-managment {
+        background: url(../img/bg/managment-bg@4x.webp);
+        background-size: cover;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+    }
+    .header-dms {
+        background: url(../img/bg/dms-de__bg@4x.webp);
+        background-size: cover;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+    }
+    .header-analytics {
+        background: url(../img/bg/analytics@4x.webp);
+        background-size: cover;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+    }
+    .header-price {
+      background: url(../img/bg/pricing@4x.webp);
+      background-size: cover;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+    }
+    .model {
+      background: url(../img/bg/model-bg@4x.webp);
+      background-size: cover;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+    }
+    .header-data {
+      background: url(../img/bg/data-bg2@4x.webp);
+      background-size: cover;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+    }
+    .city {
+
+    }
+}

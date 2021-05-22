@@ -1,0 +1,232 @@
+
+.model {
+  // height: 975px;
+  padding-bottom: 416px;
+  position: relative;
+  &:before {
+    z-index: -1;
+    content: '';
+    background: url(../img/bg/model-bg@2x.webp);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    clip-path: polygon(0 7%,37% 0,100% 16%,100% 100%,0 100%,0 50%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &__text {
+    padding-top: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  &__name {
+    max-width: 915px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 135%;
+  }
+  &__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    position: absolute;
+    bottom: -85px;
+    z-index: 30;
+  }
+  &-card {
+    box-shadow: 0px 15px 40px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    margin-right: 15px;
+    min-width: 416px;
+    height: 415px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 50px;
+    &:last-child {
+      margin-right: 0;
+    }
+    &-1 {
+      background: #4B6EF5;
+    }
+    &-2 {
+      background: #004D95;
+    }
+    &-3 {
+      background: #00B8C6;
+    }
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 130%;
+    color: #FFFFFF;
+    max-width: 315px;
+    margin-bottom: 50px;
+  }
+  &__subtitle {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    max-width: 316px;
+  }
+  &__descr {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+    max-width: 316px;
+  }
+  &__list {
+    list-style-type: none;
+    li {
+      position: relative;
+      margin-bottom: 10px;
+      font-family: 'Roboto';
+      font-weight: normal;
+      font-size: 19.9px;
+      line-height: 130%;
+      color: #FFFFFF;
+      padding-left: 20px;
+      span {
+        font-style: italic;
+        font-weight: 300;
+        font-size: 16px;
+      }
+      img {
+        position: absolute;
+        left: 0;
+        top: 8px;
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 1400px) { //1200
+  .model {
+    &__wrap {
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    &-card {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 1200px) { //992
+  .header-price {
+      height: 850px;
+      &__title {
+        margin-top: 165px;
+        font-size: 35px;
+        line-height: 128%;
+      }
+  }
+  .model {
+    &__name {
+      font-size: 46px;
+      line-height: 125%;
+    }
+    &:before {
+      clip-path: polygon(0 3%,37% 0,100% 4%,100% 100%,0 100%,0 50%);
+    }
+  }
+}
+
+
+@media (max-width: 992px) { //768 
+  .model {
+    &-card {
+      max-width: 356px;
+      height: 365px;
+    }
+    &__name {
+      font-size: 37px;
+      line-height: 120%;
+    }
+    &__title {
+      font-size: 28px;
+    }
+    &__subtitle {
+      font-size: 17px;
+    }
+    &__descr {
+      font-size: 15px;
+    }
+  }
+}
+
+@media (max-width: 768px) { //576 
+  .model {
+    &:before {
+      clip-path: polygon(0 2%,37% 0,100% 2%,100% 100%,0 100%,0 50%);
+    }
+    &__text {
+      padding-top: 160px;
+    }
+    &__name {
+      font-size: 31px;
+      line-height: 117%;
+    }
+    &__title {
+      font-size: 26px;
+      margin-bottom: 30px;
+    }
+    &__subtitle {
+      font-size: 15px;
+    }
+    &-card {
+      height: 335px;
+      min-width: 306px;
+    }
+    &__list {
+      li {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px)  { //320
+  .model {
+    &__name {
+      font-size: 22px;
+      line-height: 115%;
+    }
+    &__title {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    &__subtitle {
+      font-size: 14px;
+    }
+    &__descr {
+      font-size: 13px;  
+    }
+    &-card {
+      min-width: 276px;
+      margin-right: 0;
+      padding: 0 30px;
+      height: 275px;
+    }
+  }
+}
+@media (max-width: 455px) {
+
+}

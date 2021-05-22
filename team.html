@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <meta name="title" content="Заголовок">
+    <meta name="description" content="Онисание">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Заголовок">
+    <meta property="og:description" content="Онисание">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Заголовок">
+    <meta property="twitter:description" content="Онисание">
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Favicon  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap-grid.min.css" integrity="sha512-cKoGpmS4czjv58PNt1YTHxg0wUDlctZyp9KUxQpdbAft+XqnyKvDvcGX0QYCgCohQenOuyGSl8l1f7/+axAqyg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="fonts/poppins.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+  <section class="nav">
+    <div class="container">
+        <div class="nav__wrap">
+            <a href="index.html" class="nav__logo">
+                <img src="img/Logo/Visoplan_logo.svg" alt="">
+            </a>
+            <ul class="nav__list">
+                <li><a id="drop_btn" class="nav__list__link ">Features 
+                  <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 5L4.37114e-07 2.54292e-07L8 0L4 5Z" fill="#252626"/>
+                </svg>
+                </a></li>
+                <li><a href="tabs.html" class="nav__list__link">use cases</a></li>
+                <li><a href="price.html" class="nav__list__link">Pricing</a></li>
+            </ul>
+            <div class="nav__button">
+                <div class="nav__lang">
+                    EN
+                </div>
+                <a href="IFC-Viewer.html" class="btn nav__btn">Login</a>
+            </div>
+            <div id="nav-burger" class="nav-burger">
+                <span class="nav-burger__elem-1"></span>
+                <span class="nav-burger__elem-2"></span>
+                <span class="nav-burger__elem-3"></span>
+                <span class="nav-burger__elem-4"></span>
+            </div>
+
+        </div>
+    </div>
+</section>
+<div id="drop-menu" class="drop-menu">
+  <div class="container">
+      <div class="drop-menu__wrap">
+
+          <div class="drop-menu__lang">
+
+          <a class="drop-menu__link drop-menu__active" href="#">DE</a>
+
+              <span></span>
+
+          <a class="drop-menu__link" href="#">EN</a> 
+
+          </div>
+          <div class="drop-menu__wrapper">
+              <div class="drop-menu-title">
+                  Features
+              </div>
+              <a href="IFC-Viewer.html" class="drop-menu-card">
+                  <div class="drop-menu__image">
+                      <img src="img/drop-menu/IFC-Viewer.svg" alt="">
+                  </div>
+                  <div class="drop-menu__title">
+                      IFC Viewer
+                  </div>
+                  <div class="drop-menu__descr">
+                      <p>
+                          Besichtigen Sie das 3D-Modell aller Gewerke und nutzen Sie Werkzeuge wie Messen, Schneiden und Markieren.
+                      </p>
+                  </div>
+              </a>
+
+              <a href="collaboration.html" class="drop-menu-card">
+                  <div class="drop-menu__image">
+                      <img src="img/drop-menu/BIM-Kollaboration.svg" alt="">
+                  </div>
+                  <div class="drop-menu__title">
+                      BIM-Kollaborationsplattform
+                  </div>
+                  <div class="drop-menu__descr">
+                      <p>
+                          Das CDE für eine effizientere Zusammenarbeit aller Beteiligten in BIM-Projekten.
+                      </p>
+                  </div>
+              </a>
+
+              <a href="managment.html" class="drop-menu-card">
+                  <div class="drop-menu__image">
+                      <img src="img/drop-menu/Issue -Management.svg" alt="">
+                  </div>
+                  <div class="drop-menu__title">
+                      Issue Management
+                  </div>
+                  <div class="drop-menu__descr">
+                      <p>
+                          Zentrale Verwaltung und Validierung von Issues. Inklusive Import und Export via Plug-Ins.
+                      </p>
+                  </div>
+              </a>
+
+              <a href="dms.html" class="drop-menu-card">
+                  <div class="drop-menu__image">
+                      <img src="img/drop-menu/Dokumentenmanagement.svg" alt="">
+                  </div>
+                  <div class="drop-menu__title">
+                      Dokumentenmanagement
+                  </div>
+                  <div class="drop-menu__descr">
+                      <p>
+                          Der Ort für die Verwaltung sämtlicher Dateiformate im BIM-Projekt. Mit Verknüpfungen zu Baukomponenten und Issues.
+                      </p>
+                  </div>
+              </a>
+
+              <a href="analytics.html" class="drop-menu-card">
+                  <div class="drop-menu__image">
+                      <img src="img/drop-menu/BIM Analytics.svg" alt="">
+                  </div>
+                  <div class="drop-menu__title">
+                      BIM Analytics
+                  </div>
+                  <div class="drop-menu__descr">
+                      <p>
+                          Intelligente Suchen und Analysen. Mengenermittlungen und Listenaktionen. Einfach smart.
+                      </p>
+                  </div>
+              </a>
+
+              <div class="drop-menu__link-2">
+                  <a class="drop-menu__link-2__link" href="tabs.html">Mehrwert in der Praxis</a>
+                  <a class="drop-menu__link-2__link" href="price.html">Pricing</a>
+              </div>
+
+              <hr class="drop-menu__hr">
+          </div>
+
+          <div class="drop-menu__pages__wrap">
+              <ul class="drop-menu__pages__list">
+                  <li>
+                      <a class="drop-menu__pages__link" href="#">
+                          Blog
+                      </a>
+                  </li>
+                  <li>
+                      <a class="drop-menu__pages__link" href="#">
+                          Hilfe
+                      </a>
+                  </li>
+                  <li>
+                      <a class="drop-menu__pages__link" href="#">
+                          Über Uns
+                      </a>
+                  </li>
+                  <li>
+                      <a class="drop-menu__pages__link" href="#">
+                          Karriere & Jobs
+                      </a>
+                  </li>
+                  <li>
+                      <a class="drop-menu__pages__link" href="impresum.html">
+                          Impressum
+                      </a>
+                  </li>
+                  <li>
+                      <a class="drop-menu__pages__link" href="data.html">
+                          datenschutz
+                      </a>
+                  </li>
+                  <li>
+                      <a class="drop-menu__pages__link" href="#">
+                          agb
+                      </a>
+                  </li>
+              </ul>
+              <div class="drop-menu__pages__social">
+                  <a href="#">
+                      <img src="img/icons/Linkedin.svg" alt="">
+                  </a>
+                  <a href="#">
+                      <img src="img/icons/Facebook.svg" alt="">
+                  </a>
+                  <a href="#">
+                      <img src="img/icons/YouTube.svg" alt="">
+                  </a>
+                  <a href="#">
+                      <img src="img/icons/Instagram.svg" alt="">
+                  </a>
+                  <a href="#">
+                      <img src="img/icons/Xing.svg" alt="">
+                  </a>
+                  <a href="#">
+                      <img src="img/icons/Twitter.svgs" alt="">
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+    <header class="header header-team">
+        <div class="container">
+            <div class="header__wrap header-team__wrap">
+              <div class="header-team__title">
+                Fortschritt durch Teamgeist
+              </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="line-top line-top-team">
+      
+    </div>
+
+    <section class="look">
+
+      <div class="container">
+        <div class="look__wrap">
+          <div class="look__text">
+            <div class="look__title">
+              Unsere Vision
+            </div>
+            <div class="look__descr">
+              <p>
+                Unsere Vision besteht darin, dass wir die Kollaboration innerhalb der Baubranche verbessern und zugleich die Digitalisierung voranbringen wollen, indem wir innovative Features kreieren und bestehende Funktionen für alle Beteiligten optimieren.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="look-2">
+      <div class="container">
+        <div class="look-2__wrap">
+          <div class="look-2__text">
+            <div class="look__title">
+              Unsere Mission
+            </div>
+            <div class="look__descr">
+              <p>
+                Um unsere Vision zu erreichen, arbeiten wir tagtäglich gemeinsam mit unseren strategischen Partnern an Lösungen, um unser Produkt Visoplan auf die Bedürfnisse des Marktes zuzuschneiden..
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="innovation">
+      <div class="container">
+        <div class="innovation__text">
+          Unsere Werte
+        </div>
+        <div class="innovation__wrap">
+          <div class="innovation-left">
+            <div class="innovation__title innovation__title-1">
+              Communication <br> is key.
+            </div>
+            <div class="innovation__wrapper">
+              <div class="innovation-card innovation-card-1">
+              <span>We act <br> like owners.</span>
+              </div>
+
+              <div class="innovation-card innovation-card-2">
+                <span>We make our <br> customers <br> feel at home.</span>
+              </div>
+            </div>
+          </div>
+          <div class="innovation-right">
+            <div class="innovation__wrapper">
+              <div class="innovation-card innovation-card-2">
+                <span>Simplicity <br> makes our <br> life easier.</span>
+              </div>
+
+              <div class="innovation-card innovation-card-1">
+                <span>We make <br> construction <br> processes more <br> sustainable.</span>
+              </div>
+            </div>
+
+            <div class="innovation__title innovation__title-2">
+              Innovation <br> is our driver.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="team">
+      <div class="container">
+        <div class="team__text">
+          Das Team
+        </div>
+        <div class="team__wrap">
+          <div class="team-card">
+            <div class="team__image">
+              <img src="img/team-user.webp" alt="">
+            </div>
+            <div class="team__name">
+              Boris Goldshteyn
+            </div>
+            <div class="team__job">
+              CEO
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team__image">
+              <img src="img/team-user.webp" alt="">
+            </div>
+            <div class="team__name">
+              Clemens Wagner
+            </div>
+            <div class="team__job">
+              CTO
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team__image">
+              <img src="img/team-user.webp" alt="">
+            </div>
+            <div class="team__name">
+              Oskar Schittelkop
+            </div>
+            <div class="team__job">
+              Sales Manager
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team__image">
+              <img src="img/team-user.webp" alt="">
+            </div>
+            <div class="team__name">
+              Alexander Jede
+            </div>
+            <div class="team__job">
+              Sales Manager
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team__image">
+              <img src="img/team-user.webp" alt="">
+            </div>
+            <div class="team__name">
+              Christian Krause
+            </div>
+            <div class="team__job">
+              Sales Manager
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team__image">
+              <img src="img/team-user.webp" alt="">
+            </div>
+            <div class="team__name">
+              Marc Grothe
+            </div>
+            <div class="team__job">
+              Marketing Manager
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team__image">
+              <img src="img/team-user.webp" alt="">
+            </div>
+            <div class="team__name">
+              Sophie Tausch 
+            </div>
+            <div class="team__job">
+              Design & Produktmanagement
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team__image">
+              <img src="img/team-user.webp" alt="">
+            </div>
+            <div class="team__name">
+              Roman Milewski 
+            </div>
+            <div class="team__job">
+              Softwareentwickler
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team__image">
+              <img src="img/team-user.webp" alt="">
+            </div>
+            <div class="team__name">
+              Hendrik Rakemann 
+            </div>
+            <div class="team__job">
+              Softwareentwickler
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team__image">
+              <img src="img/team-user.webp" alt="">
+            </div>
+            <div class="team__name">
+              André Desch
+            </div>
+            <div class="team__job">
+              Softwareentwickler
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team__image">
+              <img src="img/team-user.webp" alt="">
+            </div>
+            <div class="team__name">
+              Jonas Manschwetus
+            </div>
+            <div class="team__job">
+              Softwareentwickler
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team__image">
+              <img src="img/team-user.webp" alt="">
+            </div>
+            <div class="team__name">
+              Lennart Böse
+            </div>
+            <div class="team__job">
+              Softwaretester
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <div class="line mt2">
+    </div>
+    <section class="ask">
+      <div class="container">
+          <div class="ask__wrap">
+              <div class="ask__title">
+                Schon heute in der Zukunft mit Visoplan
+              </div>
+              <div class="ask__block">
+                  <div class="ask__text">
+                    Fragen kostet nichts! 
+                    Kontaktieren Sie uns jederzeit.
+                  </div>
+                  <form action="" class="ask__form">
+                      <input placeholder="E-Mail-Adresse eingeben*" required type="email" class="ask__input ask__email">
+                      <div class="ask__name-phone">
+                          <input placeholder="Vollständiger Name*" required type="text" class="ask__name ask__input">
+                          <input placeholder="Telefon" type="number" class="ask__input ask__phone">
+                      </div>
+                      <div class="ask__button">
+                          <button class="ask__btn">
+                            Absenden
+                          </button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section>
+  <footer class="footer">
+    <div class="container-fluid">
+        <div class="footer__wrap">
+            <a href="#" class="footer-nav">
+                <img src="img/Logo/Visoplan-Logo__footer.svg" alt="" class="footer__logo">
+            </a>
+            <div class="footer-body">
+                <div class="footer__block">
+                    <div class="footer__title">
+                        Application
+                    </div>
+                    <ul class="footer__list">
+                        <li><a href="tabs.html" class="footer__link">Use Cases</a></li>
+                        <li><a href="IFC-Viewer.html" class="footer__link">IFC Viewer</a></li>
+                        <li><a href="collaboration.html" class="footer__link">BIM Collaboration Software</a></li>
+                        <li><a href="managment.html" class="footer__link">Issue Management</a></li>
+                        <li><a href="dms.html" class="footer__link">Document Management (DMS)</a></li>
+                        <li><a href="analytics.html" class="footer__link">BIM Analytics</a></li>
+                        <li><a href="price.html" class="footer__link">Pricing</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer__wrapper">
+                    <div class="footer-block">
+                        <div class="footer__title">
+                            Knowledge
+                        </div>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">Blog</a></li>
+                            <li><a href="#" class="footer__link">Help</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-block">
+                        <div class="footer__title">
+                            language
+                        </div>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link footer-lang">German</a></li>
+                            <li><a href="#" class="footer__link footer-lang footer-lang-active">Englisch</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__block">
+                    <div class="footer__title">
+                        company
+                    </div>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">About Us</a></li>
+                            <li><a href="#" class="footer__link">Career & Jobs</a></li>
+                            <li><a href="impresum.html" class="footer__link">Imprint</a></li>
+                            <li><a href="#" class="footer__link">Privacy Notice</a></li>
+                            <li><a href="#" class="footer__link">Terms & Conditions</a></li>
+                        </ul>
+                </div>
+                <div class="footer__block footer__block-w">
+                    <div class="footer__title-fz">
+                        Always up-to-date.
+                        With the Visoplan BIM newsletter.
+                    </div>
+                    <form action="" class="footer__form">
+                        <input placeholder="Email address " required type="email" name="" id="">
+                            <button class="footer__btn">
+                                Sign Up
+                            </button>
+                        
+                    </form>
+                    <div class="footer_lang">
+                      <div class="footer__title">
+                          language
+                      </div>
+                      <ul class="footer__list">
+                          <li><a href="#" class="footer__link footer-lang">German </a></li>
+                          |
+                          <li><a href="#" class="footer__link footer-lang footer-lang-active"> Englisch</a></li>
+                      </ul>   
+                    </div>
+                    <div class="footer-social">
+                        <div class="footer-social__title">
+                            Follow us!
+                        </div>
+                        <div class="footer-social__image">
+                            <a href="#"><img src="img/icons/Linkedin.svg" alt="Linkedin"></a>
+                            <a href="#"><img src="img/icons/Facebook.svg" alt="Facebook"></a>
+                            <a href="#"><img src="img/icons/YouTube.svg" alt="YouTube"></a>
+                            <a href="#"><img src="img/icons/Instagram.svg" alt="Instagram"></a>
+                            <a href="#"><img src="img/icons/Xing.svg" alt="Xing"></a>
+                            <a href="#"><img src="img/icons/Twitter.svg" alt="Twitter"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
