@@ -5310,7 +5310,7 @@ input {
 .video-video {
   box-shadow: 10px 20px 40px rgba(174, 174, 192, .2);
   max-width: 729px;
-  height: 406px
+  height: 406px;
   width: 100%;
 }
 
